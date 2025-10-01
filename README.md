@@ -53,7 +53,7 @@ my-project/
 
 **Run the setup script**:
 ```bash
-./setup-dshpc-environment.sh
+./setup.sh
 ```
 
 ### What the Script Does
