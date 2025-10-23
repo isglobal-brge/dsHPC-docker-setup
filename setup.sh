@@ -6,6 +6,9 @@ BLUE="\033[1;34m"
 YELLOW="\033[1;33m"
 RED="\033[1;31m"
 CYAN="\033[1;36m"
+TURQUOISE="\033[0;36m"
+ORANGE="\033[0;33m"
+PURPLE="\033[0;35m"
 BOLD="\033[1m"
 NC="\033[0m" # No Color
 
@@ -15,8 +18,20 @@ GITHUB_RAW_URL="https://raw.githubusercontent.com/isglobal-brge/dsHPC-docker/mai
 
 # Print banner
 echo -e "${BLUE}┌────────────────────────────────────────────────────┐${NC}"
-echo -e "${BLUE}│${NC} ${BOLD}${CYAN}dsHPC Environment Setup${NC} ${BLUE}│${NC}"
+echo -e "${BLUE}│${NC} ${BLUE}              __       __  __ ____   ______       ${NC} ${BLUE}│${NC}"
+echo -e "${BLUE}│${NC} ${BLUE}         ____/ /_____ / / / // __ \ / ____/       ${NC} ${BLUE}│${NC}"
+echo -e "${BLUE}│${NC} ${BLUE}        / __  // ___// /_/ // /_/ // /            ${NC} ${BLUE}│${NC}"
+echo -e "${BLUE}│${NC} ${BLUE}       / /_/ /(__  )/ __  // ____// /____         ${NC} ${BLUE}│${NC}"
+echo -e "${BLUE}│${NC} ${BLUE}       \__,_//____//_/ /_//_/     \_____/         ${NC} ${BLUE}│${NC}"
+echo -e "${BLUE}│${NC} ${BLUE}                                                  ${NC} ${BLUE}│${NC}"
 echo -e "${BLUE}└────────────────────────────────────────────────────┘${NC}"
+echo -e ""
+echo -e "${BOLD}Welcome to ${YELLOW}High-Performance Computing for DataSHIELD${NC}${BOLD}!${NC}"
+echo -e "       Made with ❤️  by ${BOLD}\033]8;;https://davidsarratgonzalez.github.io\007David Sarrat González\033]8;;\007${NC}"
+echo ""
+echo -e "${TURQUOISE}${BOLD}\033]8;;https://brge.isglobal.org\007Bioinformatics Research Group in Epidemiology (BRGE)\033]8;;\007${NC}"
+echo -e "  ${ORANGE}${BOLD}\033]8;;https://www.isglobal.org\007Barcelona Institute for Global Health (ISGlobal)\033]8;;\007${NC}"
+echo ""
 echo
 
 echo -e "${CYAN}📥 Downloading latest configuration script...${NC}"
