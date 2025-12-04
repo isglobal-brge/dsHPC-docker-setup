@@ -13,7 +13,7 @@ Configuration file that defines the environment settings:
   "environment_name": "dsHPC",
   "display_name": "High-Performance Computing for DataSHIELD", 
   "docker_stack_prefix": "dshpc",
-  "base_repository": "https://github.com/isglobal-brge/dsHPC-docker.git",
+  "base_repository": "https://github.com/isglobal-brge/dsHPC-core.git",
   "default_api_port": 8001,
   "description": "DataSHIELD High-Performance Computing Environment"
 }
@@ -72,7 +72,7 @@ After running the script:
 ```
 my-project/
 ├── environment/              # Original user config
-├── dsHPC-docker/            # Cloned and configured repository
+├── dsHPC-core/            # Cloned and configured repository
 │   ├── .env                 # Generated environment variables
 │   ├── environment/         # User's config copied here
 │   ├── config/             # User's config copied here (if exists)
